@@ -12,7 +12,7 @@
     vertical-align: middle;
 }
 .zip-code {
-    height: 40px;
+    height: 20px;
     display: inline-block;
     width: 25%;
     vertical-align: middle;
@@ -47,4 +47,38 @@
     color: #FFF;
     font-family: sans-serif;
     display: inline-block;
+}
+.weather {
+    width: 50%;
+    background: #05425f;
+    margin: 20px auto;
+    border-radius: 20px;
+    display: none;
+    padding: 10px;
+}
+.city {
+    font-size: 30px;
+    font-family: verdana;
+    width: 45%;
+    color: #FFF;
+    display: inline-block;
+    text-align: left;
+    margin-left: 5%;
+}
+.temp {
+    font-size: 30px;
+    font-family: verdana;
+    width: 45%;
+    color: #FFF;
+    display: inline-block;
+    text-align: left;
+    margin-left: 5%;
+}
+.error-mess {
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    font-family: verdana;
+    text-align: center;
 }
