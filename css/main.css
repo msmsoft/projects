@@ -35,6 +35,11 @@
     position: absolute;
     top: 50%;
     transform: translate(50%, -50%);
+    outline: none;
+}
+.submit-btn:hover {
+    background-color: #FFF;
+    color: #05425f;
 }
 .input-text {
     position: absolute;
