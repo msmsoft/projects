@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "MSMSOFT",
+  "license": "OPEN SOURCE",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.1"
