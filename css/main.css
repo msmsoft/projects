@@ -1,89 +1,26 @@
-.banner {
-    background: #05425f;
-    height: 150px;
-    border-radius: 20px;
-    padding: 22px 20px;
-    position: relative;
-    line-height: 150px;
+@font-face {
+    font-family: 'Alex Brush'; /*a name to be used later*/
+    src: url('/fonts/AlexBrush-Regular.ttf'); /*URL to font*/
+    font-family: 'Bangers'; /*a name to be used later*/
+    src: url('/fonts/Bangers.ttf'); /*URL to font*/
 }
-.image {
-    position: absolute;
-    height: 150px;
-    vertical-align: middle;
-}
-.zip-code {
-    height: 20px;
-    display: inline-block;
-    width: 25%;
-    vertical-align: middle;
-    border-radius: 10px;
-    outline: 0;
-    border: 0;
-    padding: 10px;
-}
-.submit-btn {
-    width: 200px;
-    height: 54px;
-    border-radius: 26px;
-    color: #fff;
-    letter-spacing: 4px;
-    cursor: pointer;
-    font-size: 20px;
-    right: 140px;
-    border: 2px solid #fff;
-    background: none;
-    position: absolute;
-    top: 50%;
-    transform: translate(50%, -50%);
-    outline: none;
-}
-.submit-btn:hover {
-    background-color: #FFF;
-    color: #05425f;
-}
-.input-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%, -50%);
-    width: 50%;
-}
-.zip-label {
-    color: #FFF;
-    font-family: sans-serif;
-    display: inline-block;
-}
-.weather {
-    width: 50%;
-    background: #05425f;
-    margin: 20px auto;
-    border-radius: 20px;
-    display: none;
-    padding: 10px;
-}
-.city {
-    font-size: 30px;
-    font-family: verdana;
-    width: 45%;
-    color: #FFF;
-    display: inline-block;
-    text-align: left;
-    margin-left: 5%;
-}
-.temp {
-    font-size: 30px;
-    font-family: verdana;
-    width: 45%;
-    color: #FFF;
-    display: inline-block;
-    text-align: left;
-    margin-left: 5%;
-}
-.error-mess {
-    width: 100%;
-    color: #fff;
-    font-size: 30px;
+.main-title {
     display: block;
-    font-family: verdana;
     text-align: center;
+    padding: 10px 0;
+    background: #efefef;
+}
+.main-text {
+    font-family: 'Bangers';
+    font-size: 42px;
+    color: #4053af;
+    text-shadow: 1px 1px 2px;
+}
+.msm-item {
+    border: 1px solid #4947d8;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.msm-link {
+    color: #0c5460;
 }

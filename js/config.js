@@ -1,8 +1,10 @@
 angular.module('app')
-    .config(function($routeProvider) {
+    .config(['$routeProvider','$locationProvider',function($routeProvider,$locationProvider) {
         $routeProvider
             .when('/', {
-                templateUrl : 'views/main.html'
+                templateUrl : 'views/main.html',
+                controller: 'mainCtrl',
+                controllerAs: 'main'
             })
             .when('/red', {
                 templateUrl : 'red.htm'
@@ -10,7 +12,7 @@ angular.module('app')
             .when('/green', {
                 templateUrl : 'green.htm'
             })
-            .when('/blue', {
-                templateUrl : 'blue.htm'
+            .otherwise('/', {
+                redirectTo: '/'
             });
-    });
+    }]);
