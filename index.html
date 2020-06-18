@@ -16,6 +16,7 @@
         <script src="js/config.js"></script>
         <script src="js/controllers/mainCtrl.js"></script>
         <script src="js/controllers/navCtrl.js"></script>
+        <script src="js/services/dataService.js"></script>
         <title>Mikhail's Portfolio</title>
     </head>
     <body>
@@ -26,7 +27,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" ng-controller="navCtrl as main">
                 <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
                     <ul class="navbar-nav">
-                        <li class="nav-item msm-item" ng-repeat="nav in main.navigation">
+                        <li class="nav-item msm-item" ng-class="{'msm-active-item': nav.active === true}" ng-repeat="nav in main.navigation">
                             <a class="nav-link msm-link" href="{{nav.link}}">{{nav.name}}</a>
                         </li>
                     </ul>

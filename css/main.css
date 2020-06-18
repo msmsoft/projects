@@ -20,7 +20,16 @@
     border: 1px solid #4947d8;
     border-radius: 5px;
     margin: 0 5px;
+    min-width: 120px;
+    background: #e5f3ff;
+}
+.msm-active-item {
+    background: #4053af;
+}
+.msm-active-item > a.nav-link {
+    color: #FFF !important;
 }
 .msm-link {
     color: #0c5460;
+    text-align: center;
 }
