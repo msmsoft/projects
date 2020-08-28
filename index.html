@@ -16,6 +16,7 @@
         <script src="js/config.js"></script>
         <script src="js/controllers/mainCtrl.js"></script>
         <script src="js/controllers/navCtrl.js"></script>
+        <script src="js/controllers/componentsCtrl.js"></script>
         <script src="js/services/dataService.js"></script>
         <title>Mikhail's Portfolio</title>
     </head>
@@ -33,7 +34,9 @@
                     </ul>
                 </div>
             </nav>
-            <ng-view></ng-view>
+            <div class="view-layout">
+                <ng-view></ng-view>
+            </div>
         </div>
     </body>
 </html>
