@@ -10,7 +10,7 @@
       link: '/'
     },{
       name: 'Components',
-      link: '/components'
+      link: '#!/components'
     },{
       name: 'T-Shirt',
       link: '/t-shirt'
